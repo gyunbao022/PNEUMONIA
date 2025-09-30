@@ -10,7 +10,7 @@ from PIL import Image
 
 # ============== 설정 ==============
 # 1. 파일 경로 및 모델 설정
-MODEL_PATH = "models/hazard_resnet50_strio_0.keras"
+MODEL_PATH = "models/hazard_resnet50_strio_3.keras"
 IMG_SIZE = (224, 224)
 CLASSES = ["NORMAL", "PNEUMONIA"]
 LAST_CONV_LAYER_NAME = "conv5_block3_out"  # ResNet50의 마지막 활성화 레이어
