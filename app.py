@@ -11,7 +11,7 @@ from skimage.segmentation import mark_boundaries
 import matplotlib.pyplot as plt
 
 # ============== 설정 ==============
-MODEL_PATH = "models/hazard_resnet50_strio_0.keras"
+MODEL_PATH = "models/hazard_resnet50_strio_3.keras"
 IMG_SIZE = (224, 224)
 CLASSES = ["NORMAL", "PNEUMONIA"]
 
